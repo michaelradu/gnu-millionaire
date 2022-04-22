@@ -48,12 +48,12 @@ async function question1(){
         choices: [
             'May 23rd, 1995',
             'Nov 24th, 1998',
-            'Sep 17, 1999',
+            'Sep 17, 1991',
             'Dec 17, 2000'
         ]
     });
 
-    return handleAnswer(answers.question_1 == 'Sep 17, 1999');
+    return handleAnswer(answers.question_1 == 'Sep 17, 1991');
 }
 
 async function question2(){
